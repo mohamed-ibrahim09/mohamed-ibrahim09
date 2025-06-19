@@ -1,32 +1,23 @@
 # 👋 Yo! I'm Mohamed Ibrahim
 
-## 👨‍💻 DevOps engineer in the making...
+## 🍞 DevOps Engineer in the Oven — crispy scripts loading...
 
 <p align="center">
   <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExcWx3ajhrdm13NzUyeTE5ZzQ1ZWF4b2lqMHY4eXV2eGcycmpyNmJkdiZlcD12MV9naWZzX3NlYXJjaCZjdD1n/S9d8XB557e8phGLBVS/giphy.gif" height="180" />
 </p>
 
 <p align="center">
-  <a href="https://www.linkedin.com/in/mohamed-ibrahim-b2663a331" target="_blank">
-    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" height="25" />
-  </a>
-  <a href="mailto:midonnn0099@gmail.com">
-    <img src="https://upload.wikimedia.org/wikipedia/commons/4/4e/Gmail_Icon.png" height="25" />
-  </a>
-</p>
-
-<p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1000&color=00ADB5&center=true&vCenter=true&width=435&lines=Breaking+servers...+fixing+them+better!;Cloud+enthusiast+and+terminal+tinkerer.;DevOps+Engineer+in+training...+loading+%F0%9F%94%8B" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=22&pause=1000&color=00ADB5&center=true&vCenter=true&width=480&lines=Building+cloud-native+infrastructure...;Automating+chaos+into+order.;Containers+are+cool.;DevOps+is+a+lifestyle." />
 </p>
 
 ---
 
 ## 💼 Who Am I?
 
-🎓 I'm a second-year student at the Faculty of Artificial Intelligence, Menofia University.  
-⚙️ Addicted to automating things, tweaking systems, and talking to the terminal more than people.  
-💡 DevOps, Cloud, and Linux are my natural habitat.  
-💻 I like my scripts fast, my clusters stable, and my logs clean(ish).
+🎓 Second-year student @ Faculty of Artificial Intelligence, Menofia University  
+⚙️ Addicted to automating everything and making Linux dance in the terminal  
+☁️ Obsessed with cloud-native tooling, infrastructure, and YAML sorcery  
+🧪 I break things to learn faster — it’s science, trust me.
 
 ---
 
@@ -55,7 +46,7 @@
 
 ---
 
-## 🔧 What I’m Building Right Now
+## 🧪 Current Projects
 
 - ⚙️ Custom DevOps pipelines with GitHub Actions  
 - 🐳 Microservices running on Docker  
@@ -66,9 +57,24 @@
 
 ## 🛑 Caution: Real DevOps Moments
 
-I break things until I understand them… and then I break them again, just to be sure.  
-You haven’t truly lived until your script deletes something important. 😉
+I break things until I understand them…  
+Then I fix them in style and pretend that was the plan all along. 😎  
+
+> 🧩 *“Automate the boring stuff, panic when the automation works too well.”*
 
 ---
 
-> 🧩 *“Automate the boring stuff, panic when the automation works too well.”*
+## 📫 Reach Me
+
+<p align="center">
+  <a href="mailto:midonnn0099@gmail.com">
+    <img src="https://img.shields.io/badge/Email-midonnn0099@gmail.com-red?style=for-the-badge&logo=gmail&logoColor=white" />
+  </a>
+  <a href="https://www.linkedin.com/in/mohamed-ibrahim-b2663a331" target="_blank">
+    <img src="https://img.shields.io/badge/LinkedIn-Connect-blue?style=for-the-badge&logo=linkedin" />
+  </a>
+</p>
+
+---
+
+<p align="center"><code>Always learning. Always breaking. Always fixing (eventually).</code></p>
