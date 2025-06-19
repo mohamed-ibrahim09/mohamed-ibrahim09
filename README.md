@@ -3,7 +3,7 @@
 ## 🍞 DevOps Engineer in the Oven — crispy scripts loading...
 
 <p align="center">
-  <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExcWx3ajhrdm13NzUyeTE5ZzQ1ZWF4b2lqMHY4eXV2eGcycmpyNmJkdiZlcD12MV9naWZzX3NlYXJjaCZjdD1n/S9d8XB557e8phGLBVS/giphy.gif" height="180" />
+  <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExcWx3ajhrdm13NzUyeTE5ZzQ1ZWF4b2lqMHY4eXV2eGcycmpyNmJkdiZlcD12MV9naWZzX3NlYXJjaCZjdD1n/S9d8XB557e8phGLBVS/giphy.gif" height="250" />
 </p>
 
 <p align="center">
