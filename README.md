@@ -3,8 +3,9 @@
 ## 🍞 DevOps Engineer in the Oven — crispy scripts loading...
 
 <p align="center">
-  <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExcWx3ajhrdm13NzUyeTE5ZzQ1ZWF4b2lqMHY4eXV2eGcycmpyNmJkdiZlcD12MV9naWZzX3NlYXJjaCZjdD1n/S9d8XB557e8phGLBVS/giphy.gif" height="300" />
+  <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExcWx3ajhrdm13NzUyeTE5ZzQ1ZWF4b2lqMHY4eXV2eGcycmpyNmJkdiZlcD12MV9naWZzX3NlYXJjaCZjdD1n/S9d8XB557e8phGLBVS/giphy.gif" height="300" width="100%" style="max-width: 800px; border-radius: 10px;" />
 </p>
+
 
 <p align="center">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=22&pause=1000&color=00ADB5&center=true&vCenter=true&width=480&lines=Building+cloud-native+infrastructure...;Automating+chaos+into+order.;Containers+are+cool.;DevOps+is+a+lifestyle." />
@@ -77,4 +78,5 @@ Then I fix them in style and pretend that was the plan all along. 😎
 
 ---
 
-<p align="center"><code>Always learning. Always breaking. Always fixing (eventually).</code></p>
+<p align="center"><code>Ctrl+C to stop. Ctrl+Z to undo. Ctrl+Me to fix it.</code></p>
+
