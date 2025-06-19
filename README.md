@@ -3,8 +3,9 @@
 ## 🍞 DevOps Engineer in the Oven — crispy scripts loading...
 
 <p align="center">
-  <img src="https://media.giphy.com/media/v1.Y2lkPWVjZjA1ZTQ3ZzRwYm9uY2UzazAyZzd0cWZoYWtocjBhbnI2MDllcXQxcWR4YmczYiZlcD12MV9naWZzX3NlYXJjaCZjdD1n/iIqmM5tTjmpOB9mpbn/giphy.gif" height="300" width="100%" style="max-width: 800px; border-radius: 10px;" />
+  <img src="https://media.giphy.com/media/v1.Y2lkPWVjZjA1ZTQ3bzExYnRjMDcxaTR0bnQ5czZ2bWd3dWFobHNnbWMxZ3Y0dXozOXhmMiZlcD12MV9naWZzX3NlYXJjaCZjdD1n/G2cpDFcKzAPMScb0MC/giphy.gif" height="300" width="100%" style="max-width: 800px; border-radius: 10px;" />
 </p>
+
 
 
 
