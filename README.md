@@ -19,7 +19,7 @@
 
 ## 💼 Who Am I?
 
-🎓 Second-year student @ Faculty of Artificial Intelligence, Menofia University  
+🎓 Third-year student @ Faculty of Artificial Intelligence, Menofia University  
 ⚙️ Addicted to automating everything and making Linux dance in the terminal  
 ☁️ Obsessed with cloud-native tooling, infrastructure, and YAML sorcery  
 🧪 I break things to learn faster — it’s science, trust me.
