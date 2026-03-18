@@ -38,11 +38,16 @@
 
 ---
 
-## 🏆 Achievements
+## 🚀 Featured Projects
 
-<p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=mohamed-ibrahim09&theme=tokyonight&no-frame=true&row=1&column=6" />
-</p>
+### 🔹 DevOps Monitoring System
+- Built with Flask & psutil
+- Tracks system performance in real-time
+- Containerized using Docker
+
+### 🔹 CI/CD Pipeline
+- Automated build & deployment using GitHub Actions
+- Integrated testing & deployment workflow
 
 ---
 ---
