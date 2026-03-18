@@ -1,86 +1,48 @@
-# 👋 Yo! I'm Mohamed Ibrahim
+👋 Mohamed Ibrahim
+🚀 DevOps Engineer | Cloud & Infrastructure Enthusiast
+<p align="center"> <img src="https://media.giphy.com/media/v1.Y2lkPWVjZjA1ZTQ3bzExYnRjMDcxaTR0bnQ5czZ2bWd3dWFobHNnbWMxZ3Y0dXozOXhmMiZlcD12MV9naWZzX3NlYXJjaCZjdD1n/G2cpDFcKzAPMScb0MC/giphy.gif" height="260" width="100%" style="max-width: 800px; border-radius: 10px;" /> </p>
+💼 About Me
 
-## 🍞 DevOps Engineer in the Oven — crispy scripts loading...
+🎓 Third-year student at the Faculty of Artificial Intelligence, Menofia University
+⚙️ DevOps-focused engineer with strong interest in automation, cloud, and scalable systems
+🐧 Daily Linux user with a passion for system-level understanding
+🧠 I focus on building practical projects to bridge the gap between theory and real-world systems
 
-<p align="center">
-  <img src="https://media.giphy.com/media/v1.Y2lkPWVjZjA1ZTQ3bzExYnRjMDcxaTR0bnQ5czZ2bWd3dWFobHNnbWMxZ3Y0dXozOXhmMiZlcD12MV9naWZzX3NlYXJjaCZjdD1n/G2cpDFcKzAPMScb0MC/giphy.gif" height="300" width="100%" style="max-width: 800px; border-radius: 10px;" />
-</p>
+🎯 Core Interests
 
+☁️ Cloud Computing (AWS)
 
+🐳 Containerization (Docker)
 
+☸️ Kubernetes & Orchestration
 
+⚙️ CI/CD Pipelines (GitHub Actions)
 
+🌐 Infrastructure & System Design
 
-<p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=22&pause=1000&color=00ADB5&center=true&vCenter=true&width=480&lines=Building+cloud-native+infrastructure...;Automating+chaos+into+order.;Containers+are+cool.;DevOps+is+a+lifestyle." />
-</p>
+🧰 Technical Skills
+<p align="left"> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" height="35" /> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" height="35" /> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/go/go-original.svg" height="35" /> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" height="35" /> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" height="35" /> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kubernetes/kubernetes-plain.svg" height="35" /> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" height="35" /> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" height="35" /> </p>
+🧪 Current Projects
 
----
+🔧 Building CI/CD pipelines using GitHub Actions
 
-## 💼 Who Am I?
+🐳 Running microservices with Docker
 
-🎓 Third-year student @ Faculty of Artificial Intelligence, Menofia University  
-⚙️ Addicted to automating everything and making Linux dance in the terminal  
-☁️ Obsessed with cloud-native tooling, infrastructure, and YAML sorcery  
-🧪 I break things to learn faster — it’s science, trust me.
+☁️ Deploying applications in cloud environments
 
----
+☸️ Practicing Kubernetes (Minikube & cluster setups)
 
-## 💬 Interests & Special Powers
+📊 Developing a system monitoring web app (Flask + psutil)
 
-- ☁️ Cloud Infrastructure (AWS, baby!)
-- 🐳 Containerization with Docker
-- 📦 Orchestrating with Kubernetes
-- 🐧 Living that Linux lifestyle
-- 🧠 Building tools in Go, Python, and even C++ when I’m brave
+📈 GitHub Stats
+<p align="center"> <img src="https://github-readme-stats.vercel.app/api?username=mohamed-ibrahim09&show_icons=true&theme=tokyonight" /> </p> <p align="center"> <img src="https://github-readme-streak-stats.herokuapp.com/?user=mohamed-ibrahim09&theme=tokyonight" /> </p> <p align="center"> <img src="https://github-readme-activity-graph.vercel.app/graph?username=mohamed-ibrahim09&theme=tokyo-night" /> </p>
+🌐 Portfolio
 
----
+🔗 Visit My Portfolio:
+👉 https://mohamedelhadad.vercel.app/
 
-## 🧰 My Toolbelt
+📫 Contact
+<p align="center"> <a href="mailto:mohammed.i.elhadad@gmail.com"> <img src="https://img.shields.io/badge/Email-mohammed.i.elhadad@gmail.com-red?style=for-the-badge&logo=gmail&logoColor=white" /> </a> <a href="https://www.linkedin.com/in/mohamed-ibrahim-b2663a331" target="_blank"> <img src="https://img.shields.io/badge/LinkedIn-Connect-blue?style=for-the-badge&logo=linkedin" /> </a> </p>
+💡 Philosophy
 
-<p align="left">
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" height="35" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" height="35" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" height="35" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/go/go-original.svg" height="35" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" height="35" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kubernetes/kubernetes-plain.svg" height="35" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" height="35" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" height="35" />
-</p>
-
----
-
-## 🧪 Current Projects
-
-- ⚙️ Custom DevOps pipelines with GitHub Actions  
-- 🐳 Microservices running on Docker  
-- ☁️ K8s playgrounds hosted on the cloud  
-- 💣 Bash scripts that occasionally behave
-
----
-
-## 🛑 Caution: Real DevOps Moments
-
-I break things until I understand them…  
-Then I fix them in style and pretend that was the plan all along. 😎  
-
-> 🧩 *“Automate the boring stuff, panic when the automation works too well.”*
-
----
-
-## 📫 Reach Me
-
-<p align="center">
-  <a href="mailto:midonnn0099@gmail.com">
-    <img src="https://img.shields.io/badge/Email-midonnn0099@gmail.com-red?style=for-the-badge&logo=gmail&logoColor=white" />
-  </a>
-  <a href="https://www.linkedin.com/in/mohamed-ibrahim-b2663a331" target="_blank">
-    <img src="https://img.shields.io/badge/LinkedIn-Connect-blue?style=for-the-badge&logo=linkedin" />
-  </a>
-</p>
-
----
-
-<p align="center"><code>Ctrl+C to stop. Ctrl+Z to undo. Ctrl+Me to fix it.</code></p>
-
+“Build systems that scale, automate what repeats, and understand what breaks.”
