@@ -34,8 +34,20 @@
 
 📊 Developing a system monitoring web app (Flask + psutil)
 
-📈 GitHub Stats
-<p align="center"> <img src="https://github-readme-stats.vercel.app/api?username=mohamed-ibrahim09&show_icons=true&theme=tokyonight" /> </p> <p align="center"> <img src="https://github-readme-streak-stats.herokuapp.com/?user=mohamed-ibrahim09&theme=tokyonight" /> </p> <p align="center"> <img src="https://github-readme-activity-graph.vercel.app/graph?username=mohamed-ibrahim09&theme=tokyo-night" /> </p>
+📈---
+
+## 🚀 Featured Projects
+
+### 🔹 DevOps Monitoring System
+- Built with Flask & psutil
+- Tracks system performance in real-time
+- Containerized using Docker
+
+### 🔹 CI/CD Pipeline
+- Automated build & deployment using GitHub Actions
+- Integrated testing & deployment workflow
+
+---
 🌐 Portfolio
 
 🔗 Visit My Portfolio:
