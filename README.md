@@ -36,14 +36,12 @@
 
 ---
 
-## 📊 GitHub Insights
+---
+
+## 🏆 Achievements
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=mohamed-ibrahim09&layout=compact&theme=tokyonight" />
-</p>
-
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=mohamed-ibrahim09&label=Profile%20Views&color=0e75b6&style=flat" />
+  <img src="https://github-profile-trophy.vercel.app/?username=mohamed-ibrahim09&theme=tokyonight&no-frame=true&row=1&column=6" />
 </p>
 
 ---
