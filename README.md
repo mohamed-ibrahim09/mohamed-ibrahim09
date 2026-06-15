@@ -4,7 +4,7 @@
 
 # ⚡ Mohamed Ibrahim
 
-### AI Student • DevOps Engineer • Cloud Enthusiast • Security Learner
+### AI Student • DevOps & Cloud Engineer • Cloud Security Enthusiast
 
 <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1000&color=7C3AED&center=true&vCenter=true&width=800&lines=DevOps+%26+Cloud+Engineering;AWS+Solutions+Architect+Associate+Candidate;Artificial+Intelligence+Student;Passionate+About+Cloud+Security;Always+Learning+Something+New" />
 
@@ -34,28 +34,32 @@ Building cloud-native infrastructure, automating workflows, and exploring secure
 # 🖥️ Terminal
 
 ```bash
-$ whoami
+```bash
 
-  Mohamed Ibrahim
-  Faculty of Artificial Intelligence, Menofia University
-  DevOps & Cloud Engineering Student
+Role:
+  AI Student • DevOps & Cloud Engineer
 
-$ focus
+Interests:
+  Cloud Computing
+  Cloud Security
+  Infrastructure as Code
+  DevOps Automation
+  Observability
 
-  Cloud Computing · DevOps Automation
-  Cloud Security · Infrastructure as Code
-  Containerization · Observability
+$ currently_building
 
-$ currently_learning
+  AWS SAA-C03 Knowledge Base
+  Terraform Labs
+  Kubernetes Workloads
+  Prometheus Monitoring Stack
 
-  AWS SAA-C03 · Terraform · Kubernetes
-  Helm · Prometheus · Cloud Security
+$ philosophy
 
-$ motto
+  Build systems that scale.
+  Automate what repeats.
+  Secure what matters.
+```
 
-  "Automate what repeats.
-   Monitor what matters.
-   Secure what scales."
 ```
 
 ---
@@ -69,6 +73,17 @@ location: Egypt 🇪🇬
 education:
   institution: Faculty of Artificial Intelligence, Menofia University
   graduation:  2027
+
+My academic background is in Artificial Intelligence, where I have studied:
+
+- Machine Learning
+- Deep Learning
+- Classification Algorithms
+- Decision Trees
+- Neural Networks
+- Data Analysis
+
+This foundation helps me better understand how modern AI systems can be deployed, monitored, and secured in cloud environments.
 
 current_role: DEPI DevOps Trainee
 ```
@@ -164,19 +179,7 @@ Goal  → Build reusable, version-controlled cloud infrastructure
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=mohamed-ibrahim09&show_icons=true&theme=tokyonight&hide_border=true&count_private=true"/>
-
-<br/>
-
-<img src="https://github-readme-streak-stats.herokuapp.com?user=mohamed-ibrahim09&theme=tokyonight&hide_border=true"/>
-
-<br/>
-
 <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=mohamed-ibrahim09&theme=tokyonight"/>
-
-<br/>
-
-<img src="https://github-profile-trophy.vercel.app/?username=mohamed-ibrahim09&theme=tokyonight&no-frame=true&row=1&column=6"/>
 
 </div>
 
@@ -194,6 +197,8 @@ Goal  → Build reusable, version-controlled cloud infrastructure
 
 <div align="center">
 
-*"Turning manual processes into reliable systems."*
+*"Build systems that scale,
+automate what repeats,
+and secure what matters."*
 
 </div>
