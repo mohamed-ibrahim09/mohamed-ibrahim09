@@ -34,32 +34,28 @@ Building cloud-native infrastructure, automating workflows, and exploring secure
 # 🖥️ Terminal
 
 ```bash
-```bash
+$ whoami
 
-Role:
-  AI Student • DevOps & Cloud Engineer
+  Mohamed Ibrahim
+  Faculty of Artificial Intelligence, Menofia University
+  DevOps & Cloud Engineering Student
 
-Interests:
-  Cloud Computing
-  Cloud Security
-  Infrastructure as Code
-  DevOps Automation
-  Observability
+$ focus
 
-$ currently_building
+  Cloud Computing · DevOps Automation
+  Cloud Security · Infrastructure as Code
+  Containerization · Observability
 
-  AWS SAA-C03 Knowledge Base
-  Terraform Labs
-  Kubernetes Workloads
-  Prometheus Monitoring Stack
+$ currently_learning
 
-$ philosophy
+  AWS SAA-C03 · Terraform · Kubernetes
+  Helm · Prometheus · Cloud Security
 
-  Build systems that scale.
-  Automate what repeats.
-  Secure what matters.
-```
+$ motto
 
+  "Automate what repeats.
+   Monitor what matters.
+   Secure what scales."
 ```
 
 ---
@@ -73,6 +69,14 @@ location: Egypt 🇪🇬
 education:
   institution: Faculty of Artificial Intelligence, Menofia University
   graduation:  2027
+  
+
+current_role: DEPI DevOps Trainee
+```
+
+I'm an AI student with a strong pull toward cloud infrastructure, DevOps automation, and security engineering. My path started with machine learning and deep learning at university, then expanded into Linux, networking, cloud-native tools, and infrastructure automation.
+
+I build systems that are **scalable**, **automated**, **observable**, and **secure** — and I'm particularly interested in cloud security, identity management, and secure infrastructure design on AWS.
 
 My academic background is in Artificial Intelligence, where I have studied:
 
@@ -84,13 +88,6 @@ My academic background is in Artificial Intelligence, where I have studied:
 - Data Analysis
 
 This foundation helps me better understand how modern AI systems can be deployed, monitored, and secured in cloud environments.
-
-current_role: DEPI DevOps Trainee
-```
-
-I'm an AI student with a strong pull toward cloud infrastructure, DevOps automation, and security engineering. My path started with machine learning and deep learning at university, then expanded into Linux, networking, cloud-native tools, and infrastructure automation.
-
-I build systems that are **scalable**, **automated**, **observable**, and **secure** — and I'm particularly interested in cloud security, identity management, and secure infrastructure design on AWS.
 
 ---
 
@@ -181,6 +178,10 @@ Goal  → Build reusable, version-controlled cloud infrastructure
 
 <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=mohamed-ibrahim09&theme=tokyonight"/>
 
+<br/>
+
+<img src="https://github-profile-trophy.vercel.app/?username=mohamed-ibrahim09&theme=tokyonight&no-frame=true&row=1&column=6"/>
+
 </div>
 
 ---
@@ -199,6 +200,6 @@ Goal  → Build reusable, version-controlled cloud infrastructure
 
 *"Build systems that scale,
 automate what repeats,
-and secure what matters."*
+and secure what matters.."*
 
 </div>
