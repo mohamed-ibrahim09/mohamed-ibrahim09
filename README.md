@@ -4,9 +4,9 @@
 
 # ⚡ Mohamed Ibrahim
 
-### AI Student • DevOps & Cloud Engineer • Cloud Security Enthusiast
+### DevOps Engineer @ ALGOcas • AWS Certified Solutions Architect • AI Student
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1000&color=7C3AED&center=true&vCenter=true&width=800&lines=DevOps+%26+Cloud+Engineering;AWS+Solutions+Architect+Associate+Candidate;Artificial+Intelligence+Student;Passionate+About+Cloud+Security;Always+Learning+Something+New" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1000&color=7C3AED&center=true&vCenter=true&width=800&lines=DevOps+Engineer+%40+ALGOcas;AWS+Certified+Solutions+Architect+Associate;Cloud+%26+Infrastructure+Automation;Passionate+About+Cloud+Security" />
 
 Building cloud-native infrastructure, automating workflows, and exploring secure, scalable systems.
 
@@ -37,19 +37,17 @@ Building cloud-native infrastructure, automating workflows, and exploring secure
 $ whoami
 
   Mohamed Ibrahim
-  Faculty of Artificial Intelligence, Menofia University
-  DevOps & Cloud Engineering Student
+  DevOps Engineer @ ALGOcas
+  AI Student, Menofia University (Class of 2027)
 
 $ focus
 
-  Cloud Computing · DevOps Automation
-  Cloud Security · Infrastructure as Code
-  Containerization · Observability
+  Cloud Computing · DevOps Automation · Cloud Security
+  Infrastructure as Code · Containerization · Observability
 
 $ currently_learning
 
-  AWS SAA-C03 · Terraform · Kubernetes
-  Helm · Prometheus · Cloud Security
+  Terraform · Kubernetes · Helm · Prometheus · Cloud Security
 
 $ motto
 
@@ -60,34 +58,21 @@ $ motto
 
 ---
 
+# 💼 Experience
+
+**DevOps Engineer — ALGOcas** · Sept 2026 – Present
+Working on cloud infrastructure, CI/CD automation, and deployment workflows.
+
+**DevOps Trainee — DEPI** (Digital Egypt Pioneers Initiative)
+Hands-on training in Linux, AWS, Docker, Kubernetes, and CI/CD.
+
+---
+
 # 🚀 About Me
 
-```yaml
-name:     Mohamed Ibrahim
-location: Egypt 🇪🇬
+I'm an AI student who found his way into cloud infrastructure, DevOps automation, and security engineering. My path started with machine learning and deep learning, then expanded into Linux, networking, and cloud-native tooling.
 
-education:
-  institution: Faculty of Artificial Intelligence, Menofia University
-  graduation:  2027
-  
-
-current_role: DEPI DevOps Trainee
-```
-
-I'm an AI student with a strong pull toward cloud infrastructure, DevOps automation, and security engineering. My path started with machine learning and deep learning at university, then expanded into Linux, networking, cloud-native tools, and infrastructure automation.
-
-I build systems that are **scalable**, **automated**, **observable**, and **secure** — and I'm particularly interested in cloud security, identity management, and secure infrastructure design on AWS.
-
-My academic background is in Artificial Intelligence, where I have studied:
-
-- Machine Learning
-- Deep Learning
-- Classification Algorithms
-- Decision Trees
-- Neural Networks
-- Data Analysis
-
-This foundation helps me better understand how modern AI systems can be deployed, monitored, and secured in cloud environments.
+I build systems that are **scalable**, **automated**, **observable**, and **secure**, with a particular interest in cloud security and secure infrastructure design on AWS.
 
 ---
 
@@ -103,67 +88,32 @@ This foundation helps me better understand how modern AI systems can be deployed
 
 # 🏗️ Featured Projects
 
-## 🔐 SecureLog
+**🔐 SecureLog** — Cryptographic web app (Playfair, Vigenère, AES, RSA hybrid) with blockchain-inspired tamper detection.
+`Next.js · Flask · Cryptography`
 
-Full-stack cryptographic web application implementing Playfair, Vigenère, AES, and RSA hybrid encryption with blockchain-inspired tamper detection.
+**🖥️ DevOps System Monitor** — Real-time CPU, memory, disk, and network dashboard, containerized and wired to Prometheus.
+`Flask · psutil · Docker · Prometheus`
 
-```text
-Stack → Next.js · Flask · Cryptography · Security
-Goal  → Explore secure software engineering and data integrity protection
-```
+**🔄 CI/CD Pipeline** — Automated flow: validation → testing → Docker build → registry push → deploy.
+`GitHub Actions · Docker · Helm`
 
----
-
-## 🖥️ DevOps System Monitor
-
-Real-time monitoring dashboard tracking CPU, memory, disk, and network — containerized and wired to Prometheus for metrics collection.
-
-```text
-Stack → Flask · psutil · Docker · Prometheus
-Goal  → Learn observability, metrics collection, and containerized deployments
-```
+**☁️ Infrastructure as Code Lab** — Repeatable, version-controlled AWS environments: VPC, EC2, security groups, automated setup.
+`Terraform · Ansible · AWS`
 
 ---
 
-## 🔄 CI/CD Pipeline
+# 📜 Certifications
 
-Multi-stage automated deployment workflow: code validation → testing → Docker build → registry push → deploy.
-
-```text
-Stack → GitHub Actions · Docker · Helm
-Goal  → Implement production-style DevOps automation
-```
-
----
-
-## ☁️ Infrastructure as Code Lab
-
-Provisioning and configuring repeatable AWS environments through code — VPC, EC2, security groups, and automated software setup.
-
-```text
-Stack → Terraform · Ansible · AWS
-Goal  → Build reusable, version-controlled cloud infrastructure
-```
-
----
-
-# 📜 Certifications & Programs
-
-### ✅ Completed
-- 🎓 NTI Networking Internship — CCNA
+- ☁️ AWS Certified Solutions Architect – Associate (SAA-C03)
+- 🎓 CCNA — NTI Networking Internship
 - 🎓 DEPI DevOps Program
 - 🎓 GCI World 2026 — Matsuo-Iwasawa Lab, University of Tokyo
-
-### 🔄 In Progress
-- ☁️ AWS Certified Cloud Practitioner (CLF-C02)
-- ☁️ AWS Certified Solutions Architect Associate (SAA-C03)
 
 ---
 
 # 🎯 Currently Building
 
 ```text
-☁️  AWS SAA-C03 certification prep
 🏗️  Reusable Terraform modules for AWS environments
 📦  Helm chart packaging for Kubernetes workloads
 📈  Prometheus + Grafana monitoring stack on K8s
@@ -172,34 +122,18 @@ Goal  → Build reusable, version-controlled cloud infrastructure
 
 ---
 
-# 📊 GitHub Analytics
+# 📊 GitHub Stats
 
 <div align="center">
 
 <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=mohamed-ibrahim09&theme=tokyonight"/>
 
-<br/>
-
-<img src="https://github-profile-trophy.vercel.app/?username=mohamed-ibrahim09&theme=tokyonight&no-frame=true&row=1&column=6"/>
-
-</div>
-
----
-
-# 🐍 Contribution Snake
-
-<div align="center">
-
-<img src="https://raw.githubusercontent.com/mohamed-ibrahim09/mohamed-ibrahim09/output/github-contribution-grid-snake-dark.svg"/>
-
 </div>
 
 ---
 
 <div align="center">
 
-*"Build systems that scale,
-automate what repeats,
-and secure what matters.."*
+*"Build systems that scale, automate what repeats, and secure what matters."*
 
 </div>
