@@ -70,9 +70,7 @@ Hands-on training in Linux, AWS, Docker, Kubernetes, and CI/CD.
 
 # 🚀 About Me
 
-I'm an AI student who found his way into cloud infrastructure, DevOps automation, and security engineering. My path started with machine learning and deep learning, then expanded into Linux, networking, and cloud-native tooling.
-
-I build systems that are **scalable**, **automated**, **observable**, and **secure**, with a particular interest in cloud security and secure infrastructure design on AWS.
+I'm an AI student who found his way into cloud infrastructure, DevOps automation, and security engineering. I build systems that are **scalable**, **automated**, **observable**, and **secure**, with a particular interest in cloud security on AWS.
 
 ---
 
@@ -80,25 +78,9 @@ I build systems that are **scalable**, **automated**, **observable**, and **secu
 
 <div align="center">
 
-<img src="https://skillicons.dev/icons?i=python,bash,linux,aws,docker,kubernetes,terraform,ansible,git,githubactions,prometheus,flask,nextjs"/>
+<img src="https://skillicons.dev/icons?i=linux,bash,python,aws,docker,kubernetes,terraform,ansible,githubactions"/>
 
 </div>
-
----
-
-# 🏗️ Featured Projects
-
-**🔐 SecureLog** — Cryptographic web app (Playfair, Vigenère, AES, RSA hybrid) with blockchain-inspired tamper detection.
-`Next.js · Flask · Cryptography`
-
-**🖥️ DevOps System Monitor** — Real-time CPU, memory, disk, and network dashboard, containerized and wired to Prometheus.
-`Flask · psutil · Docker · Prometheus`
-
-**🔄 CI/CD Pipeline** — Automated flow: validation → testing → Docker build → registry push → deploy.
-`GitHub Actions · Docker · Helm`
-
-**☁️ Infrastructure as Code Lab** — Repeatable, version-controlled AWS environments: VPC, EC2, security groups, automated setup.
-`Terraform · Ansible · AWS`
 
 ---
 
@@ -108,17 +90,6 @@ I build systems that are **scalable**, **automated**, **observable**, and **secu
 - 🎓 CCNA — NTI Networking Internship
 - 🎓 DEPI DevOps Program
 - 🎓 GCI World 2026 — Matsuo-Iwasawa Lab, University of Tokyo
-
----
-
-# 🎯 Currently Building
-
-```text
-🏗️  Reusable Terraform modules for AWS environments
-📦  Helm chart packaging for Kubernetes workloads
-📈  Prometheus + Grafana monitoring stack on K8s
-🔐  Cloud security engineering practices
-```
 
 ---
 
