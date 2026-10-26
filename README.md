@@ -86,7 +86,7 @@ AMI, launch template and Auto Scaling group behind an internet-facing ALB across
 - ☁️ AWS Certified Solutions Architect – Associate (SAA-C03)
 - 🎓 NTI Summer Training — Cloud Architecture (completed)
 - 🎓 NTI — CCNAv7 curriculum (completed)
-- 🎓 DEPI DevOps Program (in progress)
+- 🎓 DEPI DevOps Program (completed)
 - 🌐 GCI World 2026 — Matsuo-Iwasawa Lab, University of Tokyo (program)
 
 ---
