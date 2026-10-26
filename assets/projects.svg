@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 360" width="800" height="360" role="img" aria-labelledby="ft fd">
+<title id="ft">How each project works</title>
+<desc id="fd">aws-backup-disaster-recovery: EC2 web server to KMS vault to Vault Lock to Copy to region 2 to Restore to HTTP 200. AWS-Agentic-Travel-Assistant: Cognito to API Gateway to Lambda to Bedrock agent to Knowledge base. AWS-Cloud-Infrastructure-Dashboard: Users to Load balancer to Auto Scaling to React + FastAPI to CloudWatch.</desc>
+<style>svg{--bg:#ffffff;--bdr:#d0d7de;--node:#f6f8fa;--txt:#1f2328;--mut:#59636e;--grn:#1a7f37;--glow:#dafbe1;--key:#0550ae}@media (prefers-color-scheme:dark){svg{--bg:#0d1117;--bdr:#30363d;--node:#161b22;--txt:#e6edf3;--mut:#8b949e;--grn:#3fb950;--glow:#12261e;--key:#79c0ff}}text{font-family:ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace;font-size:13px;fill:var(--txt)}.card{fill:var(--bg);stroke:var(--bdr)}.node{fill:var(--node);stroke:var(--bdr)}.edge{stroke:var(--bdr);stroke-width:2;fill:none}.lit-n{fill:var(--glow);stroke:var(--grn)}.lit-e{stroke:var(--grn);stroke-width:2;fill:none}.repo{fill:var(--key);font-weight:700}.note{fill:var(--mut);font-size:12px}.chk{fill:var(--grn);font-weight:700}.lit{opacity:0;animation:lit 8s linear infinite}@keyframes lit{0%{opacity:0}4%,88%{opacity:1}96%,100%{opacity:0}}@media (prefers-reduced-motion:reduce){.lit{animation:none;opacity:1}}</style>
+<rect class="card" x=".5" y=".5" width="799" height="359" rx="8"/>
+<text class="repo" x="24" y="34">aws-backup-disaster-recovery</text>
+<rect class="node" x="24.0" y="48" width="132.6" height="32" rx="6"/>
+<rect class="lit lit-n" style="animation-delay:0.00s" x="24.0" y="48" width="132.6" height="32" rx="6"/>
+<text x="90.3" y="69" text-anchor="middle">EC2 web server</text>
+<line class="edge" x1="156.6" y1="64.0" x2="179.5" y2="64.0"/>
+<line class="lit lit-e" style="animation-delay:0.40s" x1="156.6" y1="64.0" x2="179.5" y2="64.0"/>
+<rect class="node" x="179.5" y="48" width="93.1" height="32" rx="6"/>
+<rect class="lit lit-n" style="animation-delay:0.80s" x="179.5" y="48" width="93.1" height="32" rx="6"/>
+<text x="226.0" y="69" text-anchor="middle">KMS vault</text>
+<line class="edge" x1="272.6" y1="64.0" x2="295.5" y2="64.0"/>
+<line class="lit lit-e" style="animation-delay:1.20s" x1="272.6" y1="64.0" x2="295.5" y2="64.0"/>
+<rect class="node" x="295.5" y="48" width="101.0" height="32" rx="6"/>
+<rect class="lit lit-n" style="animation-delay:1.60s" x="295.5" y="48" width="101.0" height="32" rx="6"/>
+<text x="346.0" y="69" text-anchor="middle">Vault Lock</text>
+<line class="edge" x1="396.5" y1="64.0" x2="419.3" y2="64.0"/>
+<line class="lit lit-e" style="animation-delay:2.00s" x1="396.5" y1="64.0" x2="419.3" y2="64.0"/>
+<rect class="node" x="419.3" y="48" width="148.4" height="32" rx="6"/>
+<rect class="lit lit-n" style="animation-delay:2.40s" x="419.3" y="48" width="148.4" height="32" rx="6"/>
+<text x="493.5" y="69" text-anchor="middle">Copy to region 2</text>
+<line class="edge" x1="567.7" y1="64.0" x2="590.6" y2="64.0"/>
+<line class="lit lit-e" style="animation-delay:2.80s" x1="567.7" y1="64.0" x2="590.6" y2="64.0"/>
+<rect class="node" x="590.6" y="48" width="77.3" height="32" rx="6"/>
+<rect class="lit lit-n" style="animation-delay:3.20s" x="590.6" y="48" width="77.3" height="32" rx="6"/>
+<text x="629.3" y="69" text-anchor="middle">Restore</text>
+<line class="edge" x1="667.9" y1="64.0" x2="690.8" y2="64.0"/>
+<line class="lit lit-e" style="animation-delay:3.60s" x1="667.9" y1="64.0" x2="690.8" y2="64.0"/>
+<rect class="node" x="690.8" y="48" width="85.2" height="32" rx="6"/>
+<rect class="lit lit-n" style="animation-delay:4.00s" x="690.8" y="48" width="85.2" height="32" rx="6"/>
+<text x="733.4" y="69" text-anchor="middle">HTTP 200</text>
+<text class="note" x="24" y="104">The restore is the test: the restored site answered and the data file was intact.</text>
+<text class="repo" x="24" y="146">AWS-Agentic-Travel-Assistant</text>
+<rect class="node" x="24.0" y="160" width="77.3" height="32" rx="6"/>
+<rect class="lit lit-n" style="animation-delay:0.00s" x="24.0" y="160" width="77.3" height="32" rx="6"/>
+<text x="62.7" y="181" text-anchor="middle">Cognito</text>
+<line class="edge" x1="101.3" y1="176.0" x2="161.1" y2="176.0"/>
+<line class="lit lit-e" style="animation-delay:0.40s" x1="101.3" y1="176.0" x2="161.1" y2="176.0"/>
+<rect class="node" x="161.1" y="160" width="108.9" height="32" rx="6"/>
+<rect class="lit lit-n" style="animation-delay:0.80s" x="161.1" y="160" width="108.9" height="32" rx="6"/>
+<text x="215.5" y="181" text-anchor="middle">API Gateway</text>
+<line class="edge" x1="270.0" y1="176.0" x2="329.8" y2="176.0"/>
+<line class="lit lit-e" style="animation-delay:1.20s" x1="270.0" y1="176.0" x2="329.8" y2="176.0"/>
+<rect class="node" x="329.8" y="160" width="69.4" height="32" rx="6"/>
+<rect class="lit lit-n" style="animation-delay:1.60s" x="329.8" y="160" width="69.4" height="32" rx="6"/>
+<text x="364.4" y="181" text-anchor="middle">Lambda</text>
+<line class="edge" x1="399.1" y1="176.0" x2="458.9" y2="176.0"/>
+<line class="lit lit-e" style="animation-delay:2.00s" x1="399.1" y1="176.0" x2="458.9" y2="176.0"/>
+<rect class="node" x="458.9" y="160" width="124.7" height="32" rx="6"/>
+<rect class="lit lit-n" style="animation-delay:2.40s" x="458.9" y="160" width="124.7" height="32" rx="6"/>
+<text x="521.3" y="181" text-anchor="middle">Bedrock agent</text>
+<line class="edge" x1="583.6" y1="176.0" x2="643.4" y2="176.0"/>
+<line class="lit lit-e" style="animation-delay:2.80s" x1="583.6" y1="176.0" x2="643.4" y2="176.0"/>
+<rect class="node" x="643.4" y="160" width="132.6" height="32" rx="6"/>
+<rect class="lit lit-n" style="animation-delay:3.20s" x="643.4" y="160" width="132.6" height="32" rx="6"/>
+<text x="709.7" y="181" text-anchor="middle">Knowledge base</text>
+<text class="note" x="24" y="216">Session memory in S3, tools over MCP, every request traced in X-Ray.</text>
+<text class="repo" x="24" y="258">AWS-Cloud-Infrastructure-Dashboard</text>
+<rect class="node" x="24.0" y="272" width="61.5" height="32" rx="6"/>
+<rect class="lit lit-n" style="animation-delay:0.00s" x="24.0" y="272" width="61.5" height="32" rx="6"/>
+<text x="54.8" y="293" text-anchor="middle">Users</text>
+<line class="edge" x1="85.5" y1="288.0" x2="137.4" y2="288.0"/>
+<line class="lit lit-e" style="animation-delay:0.40s" x1="85.5" y1="288.0" x2="137.4" y2="288.0"/>
+<rect class="node" x="137.4" y="272" width="124.7" height="32" rx="6"/>
+<rect class="lit lit-n" style="animation-delay:0.80s" x="137.4" y="272" width="124.7" height="32" rx="6"/>
+<text x="199.7" y="293" text-anchor="middle">Load balancer</text>
+<line class="edge" x1="262.1" y1="288.0" x2="313.9" y2="288.0"/>
+<line class="lit lit-e" style="animation-delay:1.20s" x1="262.1" y1="288.0" x2="313.9" y2="288.0"/>
+<rect class="node" x="313.9" y="272" width="116.8" height="32" rx="6"/>
+<rect class="lit lit-n" style="animation-delay:1.60s" x="313.9" y="272" width="116.8" height="32" rx="6"/>
+<text x="372.4" y="293" text-anchor="middle">Auto Scaling</text>
+<line class="edge" x1="430.8" y1="288.0" x2="482.6" y2="288.0"/>
+<line class="lit lit-e" style="animation-delay:2.00s" x1="430.8" y1="288.0" x2="482.6" y2="288.0"/>
+<rect class="node" x="482.6" y="272" width="140.5" height="32" rx="6"/>
+<rect class="lit lit-n" style="animation-delay:2.40s" x="482.6" y="272" width="140.5" height="32" rx="6"/>
+<text x="552.9" y="293" text-anchor="middle">React + FastAPI</text>
+<line class="edge" x1="623.1" y1="288.0" x2="675.0" y2="288.0"/>
+<line class="lit lit-e" style="animation-delay:2.80s" x1="623.1" y1="288.0" x2="675.0" y2="288.0"/>
+<rect class="node" x="675.0" y="272" width="101.0" height="32" rx="6"/>
+<rect class="lit lit-n" style="animation-delay:3.20s" x="675.0" y="272" width="101.0" height="32" rx="6"/>
+<text x="725.5" y="293" text-anchor="middle">CloudWatch</text>
+<text class="note" x="24" y="328">Two Availability Zones, so one zone going down does not take the app with it.</text>
+</svg>

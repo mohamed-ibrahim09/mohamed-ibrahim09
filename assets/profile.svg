@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 300" width="800" height="300" role="img" aria-labelledby="t d">
+<title id="t">profile.tf: a pull request adding Mohamed Elhadad</title>
+<desc id="d">Mohamed Elhadad, DevOps Engineer @ ALGOcas. Certified: AWS SAA-C03, CCNA. Shown as a merged diff of a Terraform file.</desc>
+<style>svg{--bg:#ffffff;--bdr:#d0d7de;--hdr:#f6f8fa;--add:#dafbe1;--gut:#aceebb;--txt:#1f2328;--mut:#59636e;--key:#0550ae;--str:#0a3069;--kw:#cf222e;--grn:#1a7f37;--red:#cf222e;--mrg:#8250df}@media (prefers-color-scheme:dark){svg{--bg:#0d1117;--bdr:#30363d;--hdr:#161b22;--add:#12261e;--gut:#1b4721;--txt:#e6edf3;--mut:#8b949e;--key:#79c0ff;--str:#a5d6ff;--kw:#ff7b72;--grn:#3fb950;--red:#f85149;--mrg:#a371f7}}text{font-family:ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace;font-size:14px;white-space:pre;fill:var(--txt)}.card{fill:var(--bg);stroke:var(--bdr)}.hdr{fill:var(--hdr)}.rule{stroke:var(--bdr)}.add{fill:var(--add)}.gut{fill:var(--gut)}.mut{fill:var(--mut)}.grn{fill:var(--grn)}.red{fill:var(--red)}.key{fill:var(--key)}.str{fill:var(--str)}.kw{fill:var(--kw)}.pill-open{fill:var(--grn)}.pill-merged{fill:var(--mrg)}.pilltxt{fill:#ffffff;font-size:12px;font-weight:700}.fname{font-weight:600}.row,.plan,.open,.merged{animation-duration:18s;animation-iteration-count:infinite;animation-timing-function:linear}@keyframes r0{0%,6.0%{opacity:0}7.5%,95%{opacity:1}100%{opacity:0}}.r0{animation-name:r0}@keyframes r1{0%,9.5%{opacity:0}11.0%,95%{opacity:1}100%{opacity:0}}.r1{animation-name:r1}@keyframes r2{0%,13.0%{opacity:0}14.5%,95%{opacity:1}100%{opacity:0}}.r2{animation-name:r2}@keyframes r3{0%,16.5%{opacity:0}18.0%,95%{opacity:1}100%{opacity:0}}.r3{animation-name:r3}@keyframes r4{0%,20.0%{opacity:0}21.5%,95%{opacity:1}100%{opacity:0}}.r4{animation-name:r4}@keyframes r5{0%,23.5%{opacity:0}25.0%,95%{opacity:1}100%{opacity:0}}.r5{animation-name:r5}@keyframes r6{0%,27.0%{opacity:0}28.5%,95%{opacity:1}100%{opacity:0}}.r6{animation-name:r6}@keyframes r7{0%,30.5%{opacity:0}32.0%,95%{opacity:1}100%{opacity:0}}.r7{animation-name:r7}@keyframes plan{0%,34.0%{opacity:0}35.5%,95%{opacity:1}100%{opacity:0}}.plan{animation-name:plan}@keyframes open{0%,42.5%{opacity:1}43.5%,95%{opacity:0}100%{opacity:1}}.open{animation-name:open}@keyframes merged{0%,42.5%{opacity:0}43.5%,95%{opacity:1}100%{opacity:0}}.merged{animation-name:merged}@media (prefers-reduced-motion:reduce){.row,.plan,.merged{animation:none!important;opacity:1!important}.open{animation:none!important;opacity:0!important}}</style>
+<clipPath id="clip"><rect x=".5" y=".5" width="799" height="299" rx="8"/></clipPath>
+<rect class="card" x=".5" y=".5" width="799" height="299" rx="8"/>
+<g clip-path="url(#clip)">
+<rect class="hdr" x="0" y="0" width="800" height="48"/>
+<line class="rule" x1="0" y1="48" x2="800" y2="48"/>
+<g class="open"><rect class="pill-open" x="16" y="13" width="64" height="22" rx="11"/><text class="pilltxt" x="48" y="28" text-anchor="middle">Open</text></g>
+<g class="merged"><rect class="pill-merged" x="16" y="13" width="78" height="22" rx="11"/><text class="pilltxt" x="55" y="28" text-anchor="middle">Merged</text></g>
+<text class="fname" x="108" y="29">profile.tf</text>
+<rect class="pill-open" x="719" y="19" width="10" height="10" rx="2"/>
+<rect class="pill-open" x="732" y="19" width="10" height="10" rx="2"/>
+<rect class="pill-open" x="745" y="19" width="10" height="10" rx="2"/>
+<rect class="pill-open" x="758" y="19" width="10" height="10" rx="2"/>
+<rect class="pill-open" x="771" y="19" width="10" height="10" rx="2"/>
+<text class="grn" x="657" y="29" font-weight="600">+8</text>
+<text class="red" x="691" y="29" font-weight="600">−0</text>
+<g class="row r0">
+<rect class="add" x="0" y="48" width="800" height="26"/>
+<rect class="gut" x="0" y="48" width="76" height="26"/>
+<text class="mut" x="48" y="66" text-anchor="end">1</text>
+<text class="grn" x="62" y="66" font-weight="700">+</text>
+<text x="92" y="66" xml:space="preserve"><tspan class="kw">resource</tspan> <tspan class="str">"engineer"</tspan> <tspan class="str">"mohamed"</tspan> {</text>
+</g>
+<g class="row r1">
+<rect class="add" x="0" y="74" width="800" height="26"/>
+<rect class="gut" x="0" y="74" width="76" height="26"/>
+<text class="mut" x="48" y="92" text-anchor="end">2</text>
+<text class="grn" x="62" y="92" font-weight="700">+</text>
+<text x="92" y="92" xml:space="preserve">  <tspan class="key">name     </tspan> = <tspan class="str">"Mohamed Elhadad"</tspan></text>
+</g>
+<g class="row r2">
+<rect class="add" x="0" y="100" width="800" height="26"/>
+<rect class="gut" x="0" y="100" width="76" height="26"/>
+<text class="mut" x="48" y="118" text-anchor="end">3</text>
+<text class="grn" x="62" y="118" font-weight="700">+</text>
+<text x="92" y="118" xml:space="preserve">  <tspan class="key">role     </tspan> = <tspan class="str">"DevOps Engineer @ ALGOcas"</tspan></text>
+</g>
+<g class="row r3">
+<rect class="add" x="0" y="126" width="800" height="26"/>
+<rect class="gut" x="0" y="126" width="76" height="26"/>
+<text class="mut" x="48" y="144" text-anchor="end">4</text>
+<text class="grn" x="62" y="144" font-weight="700">+</text>
+<text x="92" y="144" xml:space="preserve">  <tspan class="key">school   </tspan> = <tspan class="str">"Menofia University, AI, 2027"</tspan></text>
+</g>
+<g class="row r4">
+<rect class="add" x="0" y="152" width="800" height="26"/>
+<rect class="gut" x="0" y="152" width="76" height="26"/>
+<text class="mut" x="48" y="170" text-anchor="end">5</text>
+<text class="grn" x="62" y="170" font-weight="700">+</text>
+<text x="92" y="170" xml:space="preserve">  <tspan class="key">certified</tspan> = [<tspan class="str">"AWS SAA-C03"</tspan>, <tspan class="str">"CCNA"</tspan>]</text>
+</g>
+<g class="row r5">
+<rect class="add" x="0" y="178" width="800" height="26"/>
+<rect class="gut" x="0" y="178" width="76" height="26"/>
+<text class="mut" x="48" y="196" text-anchor="end">6</text>
+<text class="grn" x="62" y="196" font-weight="700">+</text>
+<text x="92" y="196" xml:space="preserve">  <tspan class="key">stack    </tspan> = [<tspan class="str">"AWS"</tspan>, <tspan class="str">"Terraform"</tspan>, <tspan class="str">"Docker"</tspan>, <tspan class="str">"Ansible"</tspan>, <tspan class="str">"GitHub Actions"</tspan>]</text>
+</g>
+<g class="row r6">
+<rect class="add" x="0" y="204" width="800" height="26"/>
+<rect class="gut" x="0" y="204" width="76" height="26"/>
+<text class="mut" x="48" y="222" text-anchor="end">7</text>
+<text class="grn" x="62" y="222" font-weight="700">+</text>
+<text x="92" y="222" xml:space="preserve">  <tspan class="key">learning </tspan> = [<tspan class="str">"Kubernetes"</tspan>, <tspan class="str">"Prometheus"</tspan>, <tspan class="str">"cloud security"</tspan>]</text>
+</g>
+<g class="row r7">
+<rect class="add" x="0" y="230" width="800" height="26"/>
+<rect class="gut" x="0" y="230" width="76" height="26"/>
+<text class="mut" x="48" y="248" text-anchor="end">8</text>
+<text class="grn" x="62" y="248" font-weight="700">+</text>
+<text x="92" y="248" xml:space="preserve">}</text>
+</g>
+<text class="mut plan" x="92" y="284">Plan: 1 to add, 0 to change, 0 to destroy.</text>
+</g></svg>

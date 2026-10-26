@@ -1,0 +1,67 @@
+# Single source of truth for the profile.
+# Edit this file, then run `python3 scripts/build.py`.
+# The GitHub Action in .github/workflows/build-profile.yml does it for you on push to main.
+
+github: mohamed-ibrahim09
+handle: mohamed            # label in resource "engineer" "<handle>"
+
+# Fields shown in the diff card. Order is kept. A string or a list is fine.
+card:
+  name: "Mohamed Elhadad"
+  role: "DevOps Engineer @ ALGOcas"
+  school: "Menofia University, AI, 2027"
+  certified: ["AWS SAA-C03", "CCNA"]
+  stack: ["AWS", "Terraform", "Docker", "Ansible", "GitHub Actions"]
+  learning: ["Kubernetes", "Prometheus", "cloud security"]
+
+intro: >-
+  I'm a DevOps engineer at ALGOcas and a fourth-year AI student at Menofia University.
+  I build and automate AWS infrastructure, and I don't call a project done until I've
+  seen it work. The backup project below ends with a restore in a second region, not
+  just a completed backup job.
+
+# Animated flows drawn in assets/projects.svg. Keep labels short (about 14 characters).
+flows:
+  - repo: aws-backup-disaster-recovery
+    stages: ["EC2 web server", "KMS vault", "Vault Lock", "Copy to region 2", "Restore", "HTTP 200"]
+    note: "The restore is the test: the restored site answered and the data file was intact."
+  - repo: AWS-Agentic-Travel-Assistant
+    stages: ["Cognito", "API Gateway", "Lambda", "Bedrock agent", "Knowledge base"]
+    note: "Session memory in S3, tools over MCP, every request traced in X-Ray."
+  - repo: AWS-Cloud-Infrastructure-Dashboard
+    stages: ["Users", "Load balancer", "Auto Scaling", "React + FastAPI", "CloudWatch"]
+    note: "Two Availability Zones, so one zone going down does not take the app with it."
+
+projects:
+  - repo: aws-backup-disaster-recovery
+    text: >-
+      Backs up an EC2 web server into a KMS-encrypted vault with Vault Lock, copies it to
+      another region, and restores it there. The restored site returned HTTP 200 and the
+      data file was intact.
+  - repo: AWS-Agentic-Travel-Assistant
+    text: >-
+      A travel agent on Lambda and Bedrock that answers from a knowledge base, keeps session
+      memory in S3, and calls tools over MCP. API Gateway and Cognito sit in front, and
+      X-Ray traces each request.
+  - repo: AWS-Cloud-Infrastructure-Dashboard
+    text: >-
+      A React and FastAPI app on EC2 behind an Application Load Balancer and an Auto Scaling
+      group across two Availability Zones, with CloudWatch logs and metrics.
+
+also: >-
+  I hold the AWS Solutions Architect Associate (SAA-C03) and CCNA certifications, and took
+  part in the DEPI DevOps program and GCI World 2026 (Matsuo-Iwasawa Lab, University of Tokyo).
+
+links:
+  linkedin: "https://linkedin.com/in/mohamed-ibrahim-elhadad"
+  portfolio: "https://mohamedelhadad.vercel.app"
+  email: "mohammed.i.elhadad@gmail.com"
+
+# Captions for the failover scene in assets/cloud.svg, in the order they appear.
+cloud:
+  captions:
+    - "Healthy. Traffic is balanced across two Availability Zones."
+    - "az-a fails. The load balancer stops sending it traffic."
+    - "Auto Scaling launches replacement capacity in the healthy zone."
+    - "az-a recovers and rejoins the pool."
+    - "A backup copies to region 2 and restores. The site answers HTTP 200."
