@@ -25,36 +25,17 @@ Building cloud-native infrastructure, automating workflows, and exploring secure
 </a>
 </p>
 
-<img src="https://komarev.com/ghpvc/?username=mohamed-ibrahim09&style=for-the-badge&color=7c3aed"/>
-
 </div>
 
 ---
 
 # 🖥️ Terminal
 
-```bash
-$ whoami
+<div align="center">
 
-  Mohamed Ibrahim
-  DevOps Engineer @ ALGOcas
-  AI Student, Menofia University (Class of 2027)
+<img src="./assets/terminal.svg" width="100%" alt="Terminal: Mohamed Elhadad, DevOps Engineer at ALGOcas, AI student at Menofia University, class of 2027. Focus: cloud computing, DevOps automation, cloud security. Learning Terraform, Kubernetes, Helm, Prometheus. Motto: automate what repeats, monitor what matters, secure what scales."/>
 
-$ focus
-
-  Cloud Computing · DevOps Automation · Cloud Security
-  Infrastructure as Code · Containerization · Observability
-
-$ currently_learning
-
-  Terraform · Kubernetes · Helm · Prometheus · Cloud Security
-
-$ motto
-
-  "Automate what repeats.
-   Monitor what matters.
-   Secure what scales."
-```
+</div>
 
 ---
 
@@ -74,11 +55,29 @@ I'm an AI student who found his way into cloud infrastructure, DevOps automation
 
 ---
 
+# 🧪 Projects
+
+### [aws-backup-disaster-recovery](https://github.com/mohamed-ibrahim09/aws-backup-disaster-recovery)
+
+<img src="./assets/flow-backup-dr.svg" width="100%" alt="Flow: backup plan, vault in us-east-1 with KMS key A, manual copy to vault in us-west-1 with KMS key B, restore to a new EC2 instance returning HTTP 200"/>
+
+Tag-driven AWS Backup plan, customer-managed KMS keys per Region, Vault Lock in Governance mode, and a restore into a second Region.
+
+### [AWS-Cloud-Infrastructure-Dashboard](https://github.com/mohamed-ibrahim09/AWS-Cloud-Infrastructure-Dashboard)
+
+<img src="./assets/flow-alb-asg.svg" width="100%" alt="Flow: users to an internet-facing ALB with health checks, then EC2 instances in two availability zones inside an Auto Scaling group, watched by the CloudWatch agent"/>
+
+AMI, launch template and Auto Scaling group behind an internet-facing ALB across two AZs, with a FastAPI and React app behind Nginx.
+
+<sub>More: [AWS](https://github.com/mohamed-ibrahim09/AWS) (study notes and console labs) · [Blockchain-like-Tamper-Proof](https://github.com/mohamed-ibrahim09/Blockchain-like-Tamper-Proof) (team of 6; my part: Playfair cipher, frontend, backend, deployment) · [all repositories](https://github.com/mohamed-ibrahim09?tab=repositories)</sub>
+
+---
+
 # 🛠️ Tech Stack
 
 <div align="center">
 
-<img src="https://skillicons.dev/icons?i=linux,bash,python,aws,docker,kubernetes,terraform,ansible,githubactions"/>
+<img src="./assets/stack.svg" width="100%" alt="Stack grouped by deploy, secure and observe. Deploy: AWS EC2, ALB, Auto Scaling, Linux, Docker, GitHub Actions, Ansible, Nginx, Python, Bash; learning Terraform, Kubernetes, Helm. Secure: IAM, KMS, Vault Lock, Security Groups, VPC; learning cloud security. Observe: CloudWatch, Grafana; learning Prometheus."/>
 
 </div>
 
@@ -93,11 +92,14 @@ I'm an AI student who found his way into cloud infrastructure, DevOps automation
 
 ---
 
-# 📊 GitHub Stats
+# 🐍 Activity
 
 <div align="center">
 
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=mohamed-ibrahim09&theme=tokyonight"/>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/mohamed-ibrahim09/mohamed-ibrahim09/output/github-contribution-grid-snake-dark.svg">
+  <img alt="Contribution graph eaten by a snake" src="https://raw.githubusercontent.com/mohamed-ibrahim09/mohamed-ibrahim09/output/github-contribution-grid-snake.svg" width="100%">
+</picture>
 
 </div>
 
