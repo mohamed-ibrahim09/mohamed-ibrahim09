@@ -33,7 +33,7 @@ Building cloud-native infrastructure, automating workflows, and exploring secure
 
 <div align="center">
 
-<img src="./assets/terminal.svg" width="100%" alt="Terminal: Mohamed Elhadad, DevOps Engineer at ALGOcas, AI student at Menofia University, class of 2027. Focus: cloud computing, DevOps automation, cloud security. Learning Terraform, Kubernetes, Helm, Prometheus. Motto: automate what repeats, monitor what matters, secure what scales."/>
+<img src="./assets/terminal.svg" width="100%" alt="Terminal: Mohamed Elhadad, DevOps Engineer at ALGOcas, AI student at Menofia University, class of 2027. Focus: cloud computing, DevOps automation, cloud security, agentic AI on AWS. Learning Terraform, Kubernetes, Helm, Prometheus. Motto: automate what repeats, monitor what matters, secure what scales."/>
 
 </div>
 
@@ -49,13 +49,15 @@ Hands-on training in Linux, AWS, Docker, Kubernetes, and CI/CD.
 
 ---
 
-# 🚀 About Me
-
-I'm an AI student who found his way into cloud infrastructure, DevOps automation, and security engineering. I build systems that are **scalable**, **automated**, **observable**, and **secure**, with a particular interest in cloud security on AWS.
-
----
-
 # 🧪 Projects
+
+### [AWS-Agentic-Travel-Assistant](https://github.com/mohamed-ibrahim09/AWS-Agentic-Travel-Assistant)
+
+<img src="./assets/flow-travel-agent.svg" width="100%" alt="Flow: client to API Gateway with Cognito, to a Lambda running a Strands agent on Bedrock Nova Lite, which uses S3 session memory, a Bedrock knowledge base for RAG and AgentCore Gateway MCP tools"/>
+
+**Lab.** A serverless AI travel agent built in phases with the Strands Agents SDK: tool use, live weather from the National Weather Service API, S3-backed session memory, RAG over a Bedrock knowledge base, MCP tools through AgentCore Gateway, and a Cognito-protected REST API traced with X-Ray. Flight data is demo data.
+
+`Strands Agents` `Bedrock` `Lambda` `MCP` `Cognito`
 
 ### [aws-backup-disaster-recovery](https://github.com/mohamed-ibrahim09/aws-backup-disaster-recovery)
 
