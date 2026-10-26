@@ -10,6 +10,8 @@
 
 Building cloud-native infrastructure, automating workflows, and exploring secure, scalable systems.
 
+🔭 **Now:** building agentic AI on AWS (Bedrock, Strands) · learning Terraform and Kubernetes
+
 <p>
 <a href="https://linkedin.com/in/mohamed-ibrahim-elhadad">
 <img src="https://skillicons.dev/icons?i=linkedin" />
@@ -59,12 +61,6 @@ Hands-on training in Linux, AWS, Docker, Kubernetes, and CI/CD.
 
 `Strands Agents` `Bedrock` `Lambda` `MCP` `Cognito`
 
-### [aws-backup-disaster-recovery](https://github.com/mohamed-ibrahim09/aws-backup-disaster-recovery)
-
-<img src="./assets/flow-backup-dr.svg" width="100%" alt="Flow: backup plan, vault in us-east-1 with KMS key A, manual copy to vault in us-west-1 with KMS key B, restore to a new EC2 instance returning HTTP 200"/>
-
-Tag-driven AWS Backup plan, customer-managed KMS keys per Region, Vault Lock in Governance mode, and a restore into a second Region.
-
 ### [AWS-Cloud-Infrastructure-Dashboard](https://github.com/mohamed-ibrahim09/AWS-Cloud-Infrastructure-Dashboard)
 
 <img src="./assets/flow-alb-asg.svg" width="100%" alt="Flow: users to an internet-facing ALB with health checks, then EC2 instances in two availability zones inside an Auto Scaling group, watched by the CloudWatch agent"/>
@@ -85,12 +81,13 @@ AMI, launch template and Auto Scaling group behind an internet-facing ALB across
 
 ---
 
-# 📜 Certifications
+# 📜 Certifications & Training
 
 - ☁️ AWS Certified Solutions Architect – Associate (SAA-C03)
-- 🎓 CCNA — NTI Networking Internship
-- 🎓 DEPI DevOps Program
-- 🎓 GCI World 2026 — Matsuo-Iwasawa Lab, University of Tokyo
+- 🎓 NTI Summer Training — Cloud Architecture (completed)
+- 🎓 NTI — CCNAv7 curriculum (completed)
+- 🎓 DEPI DevOps Program (in progress)
+- 🌐 GCI World 2026 — Matsuo-Iwasawa Lab, University of Tokyo (program)
 
 ---
 
