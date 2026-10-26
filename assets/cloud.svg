@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 380" width="800" height="380" role="img" aria-labelledby="t d">
+<title id="t">A load-balanced cloud app surviving a zone failure</title>
+<desc id="d">A looping illustration. Users send traffic through a load balancer to two Availability Zones. Healthy. Traffic is balanced across two Availability Zones. az-a fails. The load balancer stops sending it traffic. Auto Scaling launches replacement capacity in the healthy zone. az-a recovers and rejoins the pool. A backup copies to region 2 and restores. The site answers HTTP 200.</desc>
+<style>svg{--bg:#ffffff;--bdr:#d0d7de;--node:#f6f8fa;--panel:#fafbfc;--txt:#1f2328;--mut:#59636e;--grn:#1a7f37;--glow:#dafbe1;--red:#cf222e;--redbg:#ffebe9;--pur:#8250df;--purbg:#fbefff;--amb:#bf8700}@media (prefers-color-scheme:dark){svg{--bg:#0d1117;--bdr:#30363d;--node:#161b22;--panel:#0f141b;--txt:#e6edf3;--mut:#8b949e;--grn:#3fb950;--glow:#12261e;--red:#f85149;--redbg:#2d1214;--pur:#a371f7;--purbg:#1f1633;--amb:#d29922}}text{font-family:ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace;font-size:12px;fill:var(--txt)}.card{fill:var(--bg);stroke:var(--bdr)}.panel{fill:var(--panel);stroke:var(--bdr)}.az{fill:none;stroke:var(--bdr);stroke-dasharray:4 4}.node{fill:var(--node);stroke:var(--bdr)}.slot{fill:none;stroke:var(--bdr);stroke-dasharray:3 3}.bar{fill:var(--bdr)}.led{fill:var(--grn)}.mut{fill:var(--mut)}.edge{stroke:var(--bdr);stroke-width:2}.dash{stroke:var(--bdr);stroke-width:2;stroke-dasharray:5 5}.pk{fill:var(--grn)}.pk2{fill:var(--pur)}.lb{fill:var(--glow);stroke:var(--grn);stroke-width:2}.failpanel{fill:var(--redbg);stroke:var(--red);stroke-width:1.5}.failtxt{fill:var(--red);font-weight:700}.dim{fill:var(--bg);opacity:.7}.redled{fill:var(--red)}.vbox{fill:var(--node);stroke:var(--bdr);stroke-width:2}.vlit{fill:var(--purbg);stroke:var(--pur);stroke-width:2}.vkey{fill:var(--pur)}.ok{fill:var(--grn)}.oktxt{fill:#ffffff;font-weight:700}.capbar{fill:var(--node);stroke:var(--bdr)}.captxt{font-size:13px}.sp{opacity:0}@keyframes c0{0%{opacity:1}23%{opacity:1}23.8%{opacity:0}100%{opacity:0}}.c0{animation:c0 16s linear infinite}@keyframes c1{0%{opacity:0}24.2%{opacity:0}25%{opacity:1}38%{opacity:1}38.8%{opacity:0}100%{opacity:0}}.c1{animation:c1 16s linear infinite}@keyframes c2{0%{opacity:0}39.2%{opacity:0}40%{opacity:1}58%{opacity:1}58.8%{opacity:0}100%{opacity:0}}.c2{animation:c2 16s linear infinite}@keyframes c3{0%{opacity:0}59.2%{opacity:0}60%{opacity:1}70%{opacity:1}70.8%{opacity:0}100%{opacity:0}}.c3{animation:c3 16s linear infinite}@keyframes c4{0%{opacity:0}71.2%{opacity:0}72%{opacity:1}95%{opacity:1}95.8%{opacity:0}100%{opacity:0}}.c4{animation:c4 16s linear infinite}@keyframes fail{0%{opacity:0}24.2%{opacity:0}25%{opacity:1}70%{opacity:1}70.8%{opacity:0}100%{opacity:0}}.fail{animation:fail 16s linear infinite}@keyframes newsrv{0%{opacity:0}41.2%{opacity:0}42%{opacity:1}96%{opacity:1}96.8%{opacity:0}100%{opacity:0}}.newsrv{animation:newsrv 16s linear infinite}@keyframes bk{0%{opacity:0}71.2%{opacity:0}72%{opacity:1}94%{opacity:1}94.8%{opacity:0}100%{opacity:0}}.bk{animation:bk 16s linear infinite}@keyframes vault{0%{opacity:0}73.2%{opacity:0}74%{opacity:1}96%{opacity:1}96.8%{opacity:0}100%{opacity:0}}.vault{animation:vault 16s linear infinite}@keyframes badge{0%{opacity:0}87.2%{opacity:0}88%{opacity:1}96%{opacity:1}96.8%{opacity:0}100%{opacity:0}}.badge{animation:badge 16s linear infinite}@keyframes aflow{0%{opacity:1}24%{opacity:1}24.8%{opacity:0}69.2%{opacity:0}70%{opacity:1}100%{opacity:1}}.aflow{animation:aflow 16s linear infinite}@keyframes m1{0%{transform:translate(0,0);opacity:0}12%{opacity:1}88%{opacity:1}100%{transform:translate(106px,0px);opacity:0}}.m1{animation:m1 2s linear infinite}@keyframes m2{0%{transform:translate(0,0);opacity:0}12%{opacity:1}88%{opacity:1}100%{transform:translate(124px,-56px);opacity:0}}.m2{animation:m2 2s linear infinite}@keyframes m3{0%{transform:translate(0,0);opacity:0}12%{opacity:1}88%{opacity:1}100%{transform:translate(124px,58px);opacity:0}}.m3{animation:m3 2s linear infinite}@keyframes m4{0%{transform:translate(0,0);opacity:0}12%{opacity:1}88%{opacity:1}100%{transform:translate(96px,-8px);opacity:0}}.m4{animation:m4 2s linear infinite}@media (prefers-reduced-motion:reduce){.sp,.c0,.c1,.c2,.c3,.c4,.fail,.newsrv,.bk,.vault,.badge,.aflow{animation:none!important}.c0,.c1,.c2,.c3,.fail,.bk,.pk,.pk2{opacity:0!important}.c4,.newsrv,.vault,.badge,.aflow{opacity:1!important}}</style>
+<rect class="card" x=".5" y=".5" width="799" height="379" rx="10"/>
+<circle class="node" cx="70" cy="140" r="8" stroke-width="2"/>
+<circle class="node" cx="70" cy="170" r="8" stroke-width="2"/>
+<circle class="node" cx="70" cy="200" r="8" stroke-width="2"/>
+<text class="mut" x="70" y="232" text-anchor="middle">users</text>
+<line class="edge" x1="88" y1="170" x2="190" y2="170"/>
+<polygon class="lb" points="250,170 235,196 205,196 190,170 205,144 235,144"/>
+<text x="220" y="175" text-anchor="middle" font-weight="700">LB</text>
+<text class="mut" x="220" y="216" text-anchor="middle">load balancer</text>
+<line class="edge" x1="250" y1="170" x2="374" y2="114"/>
+<line class="edge" x1="250" y1="170" x2="374" y2="228"/>
+<rect class="panel" x="340" y="30" width="260" height="270" rx="10"/>
+<text class="mut" x="356" y="50">region 1</text>
+<rect class="az" x="356" y="62" width="228" height="104" rx="8"/>
+<text class="mut" x="368" y="80">az-a</text>
+<rect class="az" x="356" y="176" width="228" height="104" rx="8"/>
+<text class="mut" x="368" y="194">az-b</text>
+<rect class="node" x="376" y="94" width="56" height="40" rx="6" stroke-width="2"/><rect class="bar" x="384" y="104" width="30" height="4" rx="2"/><rect class="bar" x="384" y="114" width="22" height="4" rx="2"/><circle class="led" cx="422" cy="106" r="3.5"/>
+<rect class="node" x="376" y="208" width="56" height="40" rx="6" stroke-width="2"/><rect class="bar" x="384" y="218" width="30" height="4" rx="2"/><rect class="bar" x="384" y="228" width="22" height="4" rx="2"/><circle class="led" cx="422" cy="220" r="3.5"/>
+<rect class="node" x="444" y="94" width="56" height="40" rx="6" stroke-width="2"/><rect class="bar" x="452" y="104" width="30" height="4" rx="2"/><rect class="bar" x="452" y="114" width="22" height="4" rx="2"/><circle class="led" cx="490" cy="106" r="3.5"/>
+<rect class="node" x="444" y="208" width="56" height="40" rx="6" stroke-width="2"/><rect class="bar" x="452" y="218" width="30" height="4" rx="2"/><rect class="bar" x="452" y="228" width="22" height="4" rx="2"/><circle class="led" cx="490" cy="220" r="3.5"/>
+<rect class="slot" x="512" y="208" width="56" height="40" rx="6"/>
+<g class="newsrv sp"><rect class="node" x="512" y="208" width="56" height="40" rx="6" stroke-width="2"/><rect class="bar" x="520" y="218" width="30" height="4" rx="2"/><rect class="bar" x="520" y="228" width="22" height="4" rx="2"/><circle class="led" cx="558" cy="220" r="3.5"/></g>
+<text class="mut sp newsrv" x="540" y="266" text-anchor="middle" font-size="11">+1 instance</text>
+<g class="fail sp">
+<rect class="failpanel" x="356" y="62" width="228" height="104" rx="8"/>
+<rect class="dim" x="376" y="94" width="56" height="40" rx="6"/>
+<circle class="redled" cx="422" cy="106" r="3.5"/>
+<rect class="dim" x="444" y="94" width="56" height="40" rx="6"/>
+<circle class="redled" cx="490" cy="106" r="3.5"/>
+<text class="failtxt" x="514" y="118">az-a down</text>
+</g>
+<rect class="panel" x="650" y="150" width="124" height="150" rx="10"/>
+<text class="mut" x="664" y="170">region 2</text>
+<rect class="vbox" x="680" y="184" width="64" height="64" rx="10"/>
+<g class="vault sp"><rect class="vlit" x="680" y="184" width="64" height="64" rx="10"/><circle class="vkey" cx="712" cy="212" r="7"/><rect class="vkey" x="709" y="214" width="6" height="14" rx="2"/></g>
+<text class="mut" x="712" y="266" text-anchor="middle">vault</text>
+<line class="dash" x1="584" y1="228" x2="680" y2="220"/>
+<g class="badge sp"><rect class="ok" x="660" y="276" width="104" height="18" rx="9"/><text class="oktxt" x="712" y="289" text-anchor="middle" font-size="11">HTTP 200</text></g>
+<circle class="pk m1" cx="94" cy="170" r="4" style="animation-delay:0s"/>
+<circle class="pk m3" cx="250" cy="170" r="4" style="animation-delay:0s"/>
+<circle class="pk m1" cx="94" cy="170" r="4" style="animation-delay:0.66s"/>
+<circle class="pk m3" cx="250" cy="170" r="4" style="animation-delay:0.66s"/>
+<circle class="pk m1" cx="94" cy="170" r="4" style="animation-delay:1.33s"/>
+<circle class="pk m3" cx="250" cy="170" r="4" style="animation-delay:1.33s"/>
+<g class="aflow">
+<circle class="pk m2" cx="250" cy="170" r="4" style="animation-delay:0s"/>
+<circle class="pk m2" cx="250" cy="170" r="4" style="animation-delay:0.66s"/>
+<circle class="pk m2" cx="250" cy="170" r="4" style="animation-delay:1.33s"/>
+</g>
+<g class="bk sp">
+<circle class="pk2 m4" cx="584" cy="228" r="4.5" style="animation-delay:0s"/>
+<circle class="pk2 m4" cx="584" cy="228" r="4.5" style="animation-delay:0.66s"/>
+<circle class="pk2 m4" cx="584" cy="228" r="4.5" style="animation-delay:1.33s"/>
+</g>
+<rect class="capbar" x="24" y="324" width="752" height="40" rx="8"/>
+<text class="captxt sp c0" x="44" y="349">Healthy. Traffic is balanced across two Availability Zones.</text>
+<text class="captxt sp c1" x="44" y="349">az-a fails. The load balancer stops sending it traffic.</text>
+<text class="captxt sp c2" x="44" y="349">Auto Scaling launches replacement capacity in the healthy zone.</text>
+<text class="captxt sp c3" x="44" y="349">az-a recovers and rejoins the pool.</text>
+<text class="captxt sp c4" x="44" y="349">A backup copies to region 2 and restores. The site answers HTTP 200.</text>
+</svg>
