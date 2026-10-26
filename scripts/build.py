@@ -154,6 +154,61 @@ parts.append("</g></svg>")
 (ROOT / "assets").mkdir(exist_ok=True)
 (ROOT / "assets" / "profile.svg").write_text("\n".join(parts) + "\n", encoding="utf-8")
 
+
+# ---------- projects.svg: animated flows ----------------------------------
+
+FW, ROWH, TOP = 800, 112, 16
+flows = cfg["flows"]
+FH = TOP + len(flows) * ROWH + 8
+STEP_S, FLOOP = 0.8, 8
+fc = [
+    "svg{--bg:#ffffff;--bdr:#d0d7de;--node:#f6f8fa;--txt:#1f2328;--mut:#59636e;"
+    "--grn:#1a7f37;--glow:#dafbe1;--key:#0550ae}",
+    "@media (prefers-color-scheme:dark){svg{--bg:#0d1117;--bdr:#30363d;--node:#161b22;"
+    "--txt:#e6edf3;--mut:#8b949e;--grn:#3fb950;--glow:#12261e;--key:#79c0ff}}",
+    "text{font-family:ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,"
+    "'Liberation Mono',monospace;font-size:13px;fill:var(--txt)}",
+    ".card{fill:var(--bg);stroke:var(--bdr)}.node{fill:var(--node);stroke:var(--bdr)}",
+    ".edge{stroke:var(--bdr);stroke-width:2;fill:none}",
+    ".lit-n{fill:var(--glow);stroke:var(--grn)}.lit-e{stroke:var(--grn);stroke-width:2;fill:none}",
+    ".repo{fill:var(--key);font-weight:700}.note{fill:var(--mut);font-size:12px}",
+    ".chk{fill:var(--grn);font-weight:700}",
+    f".lit{{opacity:0;animation:lit {FLOOP}s linear infinite}}",
+    "@keyframes lit{0%{opacity:0}4%,88%{opacity:1}96%,100%{opacity:0}}",
+    "@media (prefers-reduced-motion:reduce){.lit{animation:none;opacity:1}}",
+]
+fp = [
+    f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {FW} {FH}" width="{FW}" height="{FH}" '
+    'role="img" aria-labelledby="ft fd">',
+    '<title id="ft">How each project works</title>',
+    '<desc id="fd">' + escape(" ".join(
+        f'{f["repo"]}: ' + " to ".join(f["stages"]) + "." for f in flows)) + "</desc>",
+    "<style>" + "".join(fc) + "</style>",
+    f'<rect class="card" x=".5" y=".5" width="{FW - 1}" height="{FH - 1}" rx="8"/>',
+]
+for r, f in enumerate(flows):
+    y0 = TOP + r * ROWH
+    st = f["stages"]
+    fp.append(f'<text class="repo" x="24" y="{y0 + 18}">{escape(f["repo"])}</text>')
+    widths = [len(s) * 7.9 + 22 for s in st]
+    gap = (FW - 48 - sum(widths)) / (len(st) - 1)
+    x = 24.0
+    ny = y0 + 32
+    nh = 32
+    for i, (s, w) in enumerate(zip(st, widths)):
+        d = round(i * STEP_S, 2)
+        if i:
+            ex1, ex2 = x - gap, x
+            fp.append(f'<line class="edge" x1="{ex1:.1f}" y1="{ny + nh / 2}" x2="{ex2:.1f}" y2="{ny + nh / 2}"/>')
+            fp.append(f'<line class="lit lit-e" style="animation-delay:{d - 0.4:.2f}s" x1="{ex1:.1f}" y1="{ny + nh / 2}" x2="{ex2:.1f}" y2="{ny + nh / 2}"/>')
+        fp.append(f'<rect class="node" x="{x:.1f}" y="{ny}" width="{w:.1f}" height="{nh}" rx="6"/>')
+        fp.append(f'<rect class="lit lit-n" style="animation-delay:{d:.2f}s" x="{x:.1f}" y="{ny}" width="{w:.1f}" height="{nh}" rx="6"/>')
+        fp.append(f'<text x="{x + w / 2:.1f}" y="{ny + 21}" text-anchor="middle">{escape(s)}</text>')
+        x += w + gap
+    fp.append(f'<text class="note" x="24" y="{ny + nh + 24}">{escape(f["note"])}</text>')
+fp.append("</svg>")
+(ROOT / "assets" / "projects.svg").write_text("\n".join(fp) + "\n", encoding="utf-8")
+
 # ---------- README --------------------------------------------------------
 
 gh = cfg["github"]
@@ -168,6 +223,8 @@ out.append(" ".join(cfg["intro"].split()))
 out.append("")
 out.append("## What I've built")
 out.append("")
+out.append('<img src="assets/projects.svg" width="100%" alt="Architecture flows of the three projects below">')
+out.append("")
 for p in cfg["projects"]:
     out.append(f'- [{p["repo"]}](https://github.com/{gh}/{p["repo"]}): ' + " ".join(p["text"].split()))
 out.append("")
@@ -178,4 +235,4 @@ out.append(
     f'or by [email](mailto:{links["email"]}).'
 )
 (ROOT / "README.md").write_text("\n".join(out) + "\n", encoding="utf-8")
-print("built README.md and assets/profile.svg")
+print("built README.md, assets/profile.svg, assets/projects.svg")

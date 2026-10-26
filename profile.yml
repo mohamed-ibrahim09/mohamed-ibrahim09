@@ -15,10 +15,22 @@ card:
   learning: ["Kubernetes", "Prometheus", "cloud security"]
 
 intro: >-
-  I'm a DevOps engineer at ALGOcas and a third-year AI student at Menofia University.
+  I'm a DevOps engineer at ALGOcas and a fourth-year AI student at Menofia University.
   I build and automate AWS infrastructure, and I don't call a project done until I've
   seen it work. The backup project below ends with a restore in a second region, not
   just a completed backup job.
+
+# Animated flows drawn in assets/projects.svg. Keep labels short (about 14 characters).
+flows:
+  - repo: aws-backup-disaster-recovery
+    stages: ["EC2 web server", "KMS vault", "Vault Lock", "Copy to region 2", "Restore", "HTTP 200"]
+    note: "The restore is the test: the restored site answered and the data file was intact."
+  - repo: AWS-Agentic-Travel-Assistant
+    stages: ["Cognito", "API Gateway", "Lambda", "Bedrock agent", "Knowledge base"]
+    note: "Session memory in S3, tools over MCP, every request traced in X-Ray."
+  - repo: AWS-Cloud-Infrastructure-Dashboard
+    stages: ["Users", "Load balancer", "Auto Scaling", "React + FastAPI", "CloudWatch"]
+    note: "Two Availability Zones, so one zone going down does not take the app with it."
 
 projects:
   - repo: aws-backup-disaster-recovery
